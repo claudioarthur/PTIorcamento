@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(to left, blue, green);
+    width: 100vw;
+    height: 100vh;
+}
+
+#formulario-pergunta{
+    margin-top: 5vh;
+}
