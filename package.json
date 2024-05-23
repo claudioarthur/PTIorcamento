@@ -1,14 +1,15 @@
 {
-  "name": "guiaperguntas",
+  "name": "webapppoupa",
   "version": "1.0.0",
-  "description": "Uma plataforma de perguntas e respostas ao estilo Yahoo respostas",
+  "description": "Projeto intehrador",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Victor Lima",
+  "author": "Grupo 48",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "bootstrap": "^3.4.1",
     "ejs": "^2.7.1",
