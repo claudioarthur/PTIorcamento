@@ -1,0 +1,20 @@
+<%- include ../../partials/header.ejs %>
+<%- include ../../partials/navbar.ejs %>
+<body>
+<div class="container w-25 ">
+    <hr>
+    <div class="card ">
+        <div class="card-header">
+            <h2>criação de usuario</h2>
+        </div>
+        <div class="card-body">
+            <form action="/autenticate" method="post">
+                <input class="form-control" name="email" type="email" placeholder="email: grupo48@pti.com">
+                <input class="form-control" name="password" type="password" placeholder="senha: 123456 ******"><br>
+                <button type="submit" class=" btn btn-success btn-block" >entrar</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<%- include ../../partials/footer.ejs %>

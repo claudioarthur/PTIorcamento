@@ -1,6 +1,6 @@
 
 const { Sequelize } = require( "sequelize" );
-const connection = new Sequelize( 'finance' , 'root' ,'AdServer2019',{
+const connection = new Sequelize( 'finance' , 'root' ,'',{
     host: 'localhost',
     dialect: 'mysql'
 });

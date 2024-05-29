@@ -1,5 +1,5 @@
-body {
-    background-image: linear-gradient(to left, rgb(25, 0, 255), rgb(3, 121, 19));
+#gradiente {
+    background-image: linear-gradient(to left, rgb(25, 0, 255), rgb(3, 121, 19), rgb(26, 189, 48));
     width: 100vw;
     height: 100vh;
 }

@@ -1,0 +1,25 @@
+.containerflex {
+    width: 100%;
+    height: auto;
+    /*add flexbox style*/
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box {
+    width: 600px;
+    height: 340px;
+    background: white;
+    margin: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y:auto; /* Hide vertical scrollbar */
+    overflow-x: auto; /* Hide horizontal scrollbar */
+
+
+    
+
+}
